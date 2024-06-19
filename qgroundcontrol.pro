@@ -412,6 +412,7 @@ HEADERS += \
     src/QmlControls/QmlUnitsConversion.h \
     src/Vehicle/VehicleChcnavAA450FactGroup.h \
     src/Vehicle/FactGroups/VehicleEscStatusFactGroup.h \
+    src/Vehicle/VehicleFuelTankFactGroup.h \
     src/API/QGCCorePlugin.h \
     src/API/QGCOptions.h \
     src/API/QGCSettings.h \
@@ -421,7 +422,7 @@ HEADERS += \
 SOURCES += \
     src/QmlControls/CustomAction.cc \
     src/QmlControls/CustomActionManager.cc \
-    src/Vehicle/VehicleChcnavAA450FactGroup.cc \
+    src/Vehicle/VehicleFuelTankFactGroup.cc \
     src/Vehicle/FactGroups/VehicleEscStatusFactGroup.cc \
     src/API/QGCCorePlugin.cc \
     src/API/QGCOptions.cc \
