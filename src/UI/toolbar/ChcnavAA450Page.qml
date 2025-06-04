@@ -48,9 +48,9 @@ ToolIndicatorPage {
 
     function getPanelName() {
         var lidarPanelName = "-"
-        if(chcnavLidarType == chcnavAA450)          { lidarPanelName = "CHCNAV Alpha Air 450 Panel" }
-        else if(chcnavLidarType == chcnavAA10)      { lidarPanelName = "CHCNAV Alpha Air 10 Panel" }
-        else                                        { lidarPanelName = "CHCNAV Lidar Panel" }
+        if(chcnavLidarType == chcnavAA450)          { lidarPanelName = "CHCNAV Lidar v1.0.0" }
+        else if(chcnavLidarType == chcnavAA10)      { lidarPanelName = "CHCNAV Lidar v1.0.0" }
+        else                                        { lidarPanelName = "CHCNAV Lidar v1.0.0" }
 
         return lidarPanelName
     }
